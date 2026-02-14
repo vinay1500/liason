@@ -3,5 +3,26 @@
   "framework": "vite",
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Lawyer-Liaison-Frontend/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/Lawyer-Liaison-Frontend",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/Lawyer-Liaison-Frontend/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/Lawyer-Liaison-Frontend/:path*",
+      "destination": "/:path*"
+    }
+  ]
 }
