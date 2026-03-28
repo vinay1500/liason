@@ -241,7 +241,7 @@ export const CareersPage = () => {
             Don't See the Right Role?
           </h2>
           <p className="text-xl text-gray-400 font-light mb-8 max-w-2xl mx-auto">
-            We're always interested in hearing from talented professionals. Send us your resume and we'll keep you in mind for future opportunities.
+            We're always interested in hearing from talented professionals. Send us your resume and we'll keep you in mind for future opportunities and give you first opportunity.
           </p>
           <button className="px-12 py-5 bg-white text-black text-xs font-bold uppercase tracking-[0.2em] hover:bg-gray-200 transition-colors inline-flex items-center gap-3">
             Submit Your Resume
